@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "es6",
+      "esnext"
+    ],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "declaration": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "stripInternal": true,
+    "pretty": true,
+    "strictNullChecks": false,
+    "noUnusedLocals": true,
+    "outDir": "./.build"
+
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

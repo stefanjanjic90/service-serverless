@@ -1,0 +1,1 @@
+export { CompanyApi } from './company';
